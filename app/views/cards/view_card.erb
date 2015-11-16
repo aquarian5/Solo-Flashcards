@@ -1,0 +1,10 @@
+<h1>Try Your Best To Answer This:</h1>
+  <h3><%=@card.question%></h3>
+    <br>
+
+  <form action="/card/<%=@card.id%>" method="post">
+  Your Answer:<input type="text" name="answer"><br>
+  <input type="submit" value="Are You Sure You Are Right?">
+</form>
+
+
